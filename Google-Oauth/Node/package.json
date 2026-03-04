@@ -1,0 +1,25 @@
+{
+  "name": "google-oauth-node",
+  "version": "1.0.0",
+  "description": "Google OAuth2 authentication example with Express and Passport.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "google-oauth",
+    "express",
+    "passport",
+    "nodejs",
+    "authentication"
+  ],
+  "author": "Libin Rahman S",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "express-session": "^1.19.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
